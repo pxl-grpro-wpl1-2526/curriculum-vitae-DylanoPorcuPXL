@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+}
+
+.container {
+    width: 90%;
+    max-width: 800px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.profielfoto {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.profielfoto:hover {
+    opacity: 0.9;
+}
+
+h1, h2 {
+    color: #003c8f;
+}
+
+section {
+    margin-top: 25px;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+.talen-tabel {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+.talen-tabel th,
+.talen-tabel td {
+    border: 1px solid #ccc;
+    padding: 8px;
+}
+
+.talen-tabel tr:nth-child(even) {
+    background: #e6eefc;
+}
+
+
+.talen-mobiel {
+    display: none;
+    background: #e6eefc;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+
+footer {
+    background: #003c8f;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+}
+
+footer button {
+    margin-top: 10px;
+    padding: 8px 12px;
+    border: none;
+}
+
+
+@media (max-width: 576px) {
+    .talen-tabel {
+        display: none;
+    }
+
+    .talen-mobiel {
+        display: block;
+    }
+}
