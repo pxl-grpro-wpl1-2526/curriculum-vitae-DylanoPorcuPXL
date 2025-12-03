@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV – Dylano Porcu</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 20px auto;
+            background-color: #fff;
+            padding: 20px;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+
+        .left-column {
+            flex: 1 1 250px;
+            max-width: 250px;
+            text-align: center;
+            padding: 20px;
+            background-color: #e6eefc;
+            border-radius: 10px;
+        }
+
+        .left-column . {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 15px;
+        }
+
+        .left-column p {
+            margin: 5px 0;
+        }
+
+           .right-column {
+            flex: 3 1 600px;
+        }
+
+        .right-column section {
+            margin-bottom: 25px;
+        }
+
+        h1, h2 {
+            color: #003c8f;
+        }
+
+        h1 {
+            margin-bottom: 10px;
+        }
+
+        ul {
+            padding-left: 20px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+        }
+
+        th, td {
+            border: 1px solid #ccc;
+            padding: 8px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #d6e0fc;
+        }
+
+        tr:nth-child(even) {
+            background-color: #e6eefc;
+        }
+
+        .talen-mobiel {
+            display: none;
+            background: #e6eefc;
+            padding: 10px;
+            margin-top: 10px;
+        }
+
+        footer {
+            background-color: #003c8f;
+            color: #fff;
+            text-align: center;
+            padding: 15px;
+            margin-top: 30px;
+        }
+
+        footer button {
+            margin-top: 10px;
+            padding: 8px 12px;
+            border: none;
+            cursor: pointer;
+        }
+
+
+             @media (max-width: 768px) {
+            .container {
+                flex-direction: column;
+            }
+
+            .left-column {
+                max-width: 100%;
+                margin-bottom: 20px;
+            }
+        }
+
+        @media (max-width: 576px) {
+            .talen-tabel {
+                display: none;
+            }
+
+            .talen-mobiel {
+                display: block;
+            }
+
+            .left-column
+            {
+                width: 120px;
+                height: 120px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+
+    <div class="left-column">
+        <img src="assets/CV_Profielfoto_Dylano Porcu.jpg" height="250" width="180"/>
+        <h2>Dylano Porcu</h2>
+        <p>Speeltuinstraat 21A, Oudsbergen</p>
+        <p>0474 510 385</p>
+        <p>dylanoporcu@icloud.com</p>
+        <p>Geboortedatum: 6 maart 2007</p>
+        <p>LinkedIn: https://www.linkedin.com/in/dylano-porcu-1993a5359/</p>
+    </div>
+
+
+    <div class="right-column">
+        <section>
+            <h2>Profiel</h2>
+            <p>
+                Ik ben Dylano Porcu, geboren op 6 maart 2007. Ik heb een sterke interesse in websites bouwen,
+                Microsoft-toepassingen en ben graag creatief bezig met auto's, crypto en editen. Ik knip vrijwillig haren
+                voor familie en vrienden en doe autodetailing als hobby. Ik ben flexibel, gemotiveerd en werk graag aan mijn toekomst.
+            </p>
+        </section>
+
+        <section>
+            <h2>Opleiding</h2>
+            <ul>
+                <li>ICT en STEM – Atlas College Genk (2019–2021)</li>
+                <li>Verkoop en Logistiek – Atlas College Genk (2021–2023)</li>
+                <li>Onthaal, Organisatie & Sales – Atlas College Genk (2023–2025)</li>
+                <li>Marketing & Communicatie – Hogeschool PXL (2025)</li>
+                <li>Programmeren – Hogeschool PXL (2025–2027)</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Vaardigheden</h2>
+            <ul>
+                <li>HTML & CSS</li>
+                <li>Data Essentials</li>
+                <li>GitHub & Git Bash</li>
+                <li>Variabelen</li>
+                <li>Teamwork</li>
+                <li>Probleemoplossend denken</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Talen</h2>
+            <table class="talen-tabel">
+                <tr><th>Taal</th><th>Niveau</th></tr>
+                <tr><td>Nederlands</td><td>Moedertaal</td></tr>
+                <tr><td>Italiaans</td><td>Goed</td></tr>
+                <tr><td>Engels</td><td>Goed</td></tr>
+                <tr><td>Frans</td><td>Basis</td></tr>
+                <tr><td>Spaans</td><td>Begrijpen</td></tr>
+            </table>
+
+            <div class="talen-mobiel">
+                <p><b>Nederlands:</b> Moedertaal</p>
+                <p><b>Italiaans:</b> Goed</p>
+                <p><b>Engels:</b> Goed</p>
+                <p><b>Frans:</b> Basis</p>
+                <p><b>Spaans:</b> Begrijpen</p>
+            </div>
+        </section>
+
+        <section>
+            <h2>Werkervaring</h2>
+            <ul>
+                <li>Winkelmedewerker – Delhaize (2023–2025)</li>
+                <li>Logistiek medewerker – H.Essers (2022–2025)</li>
+                <li>Horeca medewerker – Step Inn (2023–2024)</li>
+                <li>Stagiair – Zeeman (2024–2025)</li>
+                <li>Kassamedewerker – Brico (2025)</li>
+                <li>Shopmedewerker & Delivery – Bruno’s (2025–heden)</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Hobby’s & Extra</h2>
+            <ul>
+                <li>Fitness</li>
+                <li>Auto detailing</li>
+                <li>Haren knippen (vrijwillig)</li>
+                <li>OK3 diploma</li>
+            </ul>
+        </section>
+    </div>
+</div>
+
+<footer>
+    <p class="footer-links">Dylano Porcu – 1PROe</p>
+    <p>Curriculum Vitae</p>
+  </footer>
+</body>
+</html>
